@@ -1,0 +1,12 @@
+fish
+fonts-firacode
+git
+nemo-audio-tab
+nemo-gtkhash
+openjdk-8-jdk
+openssh-server
+qemu-kvm
+tilix
+tree
+vim-gtk3
+xclip

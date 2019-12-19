@@ -1,0 +1,20 @@
+[custom-keybindings/custom2]
+binding=['<Primary><Shift>Escape']
+command='gnome-system-monitor'
+name='System Monitor'
+
+[custom-keybindings/custom1]
+binding=['<Super>i']
+command='/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py'
+name='System Settings'
+
+[custom-keybindings/custom0]
+binding=['<Super>t']
+command='tilix -q'
+name='Tilix (Quake)'
+
+[/]
+custom-list=['custom0', 'custom1', 'custom2']
+
+[media-keys]
+www=['XF86WWW', '<Super>c']
