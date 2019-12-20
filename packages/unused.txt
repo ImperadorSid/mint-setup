@@ -13,3 +13,5 @@ rhythmbox-data
 simple-scan
 thunderbird
 timeshift
+libdazzle-1.0-0
+
