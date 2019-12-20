@@ -18,10 +18,13 @@ libgdk-pixbuf2.0-0
 libgeoclue-2-0
 libglib2.0-0
 libgoa-1.0-0b
+libgssapi-krb5-2
 libgtk-3-0
 libgweather-3-15
 libical3
 libicu60
+libnspr4
+libnss3
 libpango-1.0-0
 libpangocairo-1.0-0
 libpangoft2-1.0-0
@@ -43,3 +46,4 @@ libxi6
 libxrender1
 libxt6
 lsb-release
+zlib1g

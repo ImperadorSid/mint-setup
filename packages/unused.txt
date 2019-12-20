@@ -17,3 +17,7 @@ simple-scan
 thunderbird
 timeshift
 
+libecal-1.2-19
+libedataserver-1.2-23
+libcamel-1.2-61
+
