@@ -1,5 +1,8 @@
 firefox*
+
 gnome-calendar
+libdazzle-1.0-0
+
 gnote
 hexchat-common
 libreoffice-base-drivers
@@ -13,5 +16,4 @@ rhythmbox-data
 simple-scan
 thunderbird
 timeshift
-libdazzle-1.0-0
 
