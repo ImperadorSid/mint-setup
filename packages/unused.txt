@@ -1,5 +1,5 @@
 cups*
-firefox
+firefox*
 ghostscript
 gnome-calendar
 gnote
@@ -26,3 +26,4 @@ python3-cups
 rhythmbox-data
 simple-scan
 thunderbird
+timeshift
