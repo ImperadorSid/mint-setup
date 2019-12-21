@@ -1,3 +1,4 @@
+dconf-gsettings-backend
 gsettings-desktop-schemas
 libatk1.0-0
 libboost-system1.65.1
@@ -14,6 +15,7 @@ libdbusmenu-gtk3-4
 libfontconfig1
 libfreetype6
 libgcc1
+libgdata22
 libgdk-pixbuf2.0-0
 libgeoclue-2-0
 libglib2.0-0
@@ -43,6 +45,7 @@ libxdamage1
 libxext6
 libxfixes3
 libxi6
+libxml2
 libxrender1
 libxt6
 lsb-release
