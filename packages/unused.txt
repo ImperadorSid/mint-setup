@@ -4,16 +4,15 @@ gnome-calendar
   libdazzle-1.0-0
   libecal-1.2-19
     libedata-cal-1.2-28
+      libebackend-1.2-10
+        libcamel-1.2-61
+	  libebook-1.2-19
+	    libebook-contacts-1.2-2
+	      libphonenumber7
+	libedata-book-1.2-25
   libedataserver-1.2-23
   libedataserverui-1.2-2
   evolution-data-server
-
-libebackend-1.2-10
-libcamel-1.2-61
-libebook-1.2-19
-libebook-contacts-1.2-2
-libedata-book-1.2-25
-libphonenumber7
 
 gnote
 hexchat-common
