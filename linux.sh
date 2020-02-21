@@ -6,7 +6,7 @@ apt install -y $(cat packages/user.txt)
 # apt install -y $(cat packages/optional.txt)
 
 # Unused softwares
-apt purge -y $(cat packages/unused.txt)
+# apt purge -y $(cat packages/unused.txt)
 
 # Clean packages
 apt clean
