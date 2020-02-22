@@ -1,0 +1,9 @@
+firefox
+gnome-calendar
+gnote
+hexchat
+mintbackup
+pix
+rhythmbox
+simple-scan
+thunderbird

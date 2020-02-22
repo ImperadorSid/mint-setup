@@ -9,7 +9,7 @@ apt install -y $(cat packages/user.txt)
 
 # Unused softwares
 echo "Removendo pacotes não-utilizados"
-# apt purge -y $(cat packages/unused.txt)
+apt purge -y $(cat packages/unused.txt)
 
 # Clean packages
 echo "Limpando cache do repositôrio de pacotes"
