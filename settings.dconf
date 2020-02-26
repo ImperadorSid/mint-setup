@@ -1,19 +1,8 @@
-[com/github/maoschanz/drawing]
-last-active-tool='select'
-last-right-rgba=['1.0', '1.0', '0.0', '0.5']
-maximized=true
-last-size=5
-last-left-rgba=['0.8', '0.0', '0.0', '1.0']
-
 [com/linuxmint/updates]
 hide-systray=true
-window-height=570
-window-width=790
 show-welcome-page=false
 autorefresh-hours=2
 refresh-minutes=10
-window-pane-position=303
-refresh-last-run=1582727714
 
 [com/linuxmint/report]
 ignored-reports=['install-language-packs', 'timeshift-no-setup']
@@ -32,45 +21,12 @@ focus-follow-mouse=false
 scrollback-unlimited=true
 visible-name='Default'
 
-[io/github/celluloid-player/celluloid/window-state]
-playlist-width=250
-show-controls=true
-show-playlist=false
-width=640
-volume=1.0
-height=480
-
-[io/github/celluloid-player/celluloid]
-settings-migrated=true
-
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
-
-[org/x/viewer/view]
-background-color='rgb(0,0,0)'
-use-background-color=true
 
 [org/x/viewer/ui]
 statusbar=false
 toolbar=false
-
-[org/x/editor/preferences/ui]
-statusbar-visible=true
-
-[org/x/editor/plugins/filebrowser/on-load]
-virtual-root='file:///home/impsid/Downloads/Linux/System/Flat%20Remix'
-tree-view=true
-root='file:///'
-
-[org/x/editor/plugins]
-active-plugins=['time', 'textsize', 'spell', 'sort', 'modelines', 'filebrowser', 'docinfo', 'open-uri-context-menu']
-
-[org/x/editor/state/window]
-size=(650, 500)
-state=87168
-bottom-panel-size=140
-side-panel-size=200
-side-panel-active-page=827629879
 
 [org/cinnamon]
 desktop-effects-unmaximize-transition='easeNone'
