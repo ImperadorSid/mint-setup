@@ -1,6 +1,8 @@
 firefox
 gnome-calendar
+gnome-font-viewer
 gnote
+gucharmap
 hexchat
 mintbackup
 onboard
