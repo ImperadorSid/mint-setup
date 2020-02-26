@@ -3,7 +3,10 @@ gnome-calendar
 gnote
 hexchat
 mintbackup
+onboard
 pix
 rhythmbox
 simple-scan
 thunderbird
+transmission-gtk
+xed
