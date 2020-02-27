@@ -2,9 +2,6 @@
 hide-systray=true
 show-welcome-page=false
 
-[com/linuxmint/report]
-ignored-reports=['install-language-packs', 'timeshift-no-setup']
-
 [com/gexperts/Tilix]
 quake-height-percent=60
 terminal-title-style='none'

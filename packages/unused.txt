@@ -12,3 +12,14 @@ simple-scan
 thunderbird
 transmission-gtk
 xed
+blueberry
+xreader
+mintdrivers
+gufw
+mintlocale
+libreoffice-common
+gnome-logs
+gnome-power-manager
+system-config-printer
+mintinstall
+mintreport
