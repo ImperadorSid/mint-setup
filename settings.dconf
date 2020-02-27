@@ -53,17 +53,9 @@ notification-enabled=true
 tile-enabled=false
 switch-enabled=false
 
-[org/cinnamon/muffin]
-resize-threshold=24
-tile-hud-threshold=25
-
 [org/cinnamon/desktop/interface]
-text-scaling-factor=1.0
-cursor-size=24
-cursor-blink-time=1200
 icon-theme='Flat-Remix-Green-Dark'
 gtk-theme='Flat-Remix-GTK-Green-Dark'
-toolkit-accessibility=true
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom2]
 binding=['<Primary><Shift>Escape']
@@ -89,10 +81,6 @@ www=['XF86WWW', '<Super>c']
 [org/cinnamon/desktop/media-handling]
 automount-open=false
 automount=false
-autorun-never=false
-
-[org/cinnamon/desktop/applications/calculator]
-exec='gnome-calculator'
 
 [org/cinnamon/desktop/applications/terminal]
 exec='tilix'
