@@ -59,7 +59,7 @@ name='System Monitor'
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom1]
 binding=['<Super>i']
-command='/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py'
+command='cinnamon-settings'
 name='System Settings'
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
