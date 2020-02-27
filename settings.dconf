@@ -24,9 +24,8 @@ active-plugins=['slideshowshuffle', 'map', 'exif-display']
 statusbar=false
 toolbar=false
 
-
 [org/cinnamon]
-hotcorner-layout=['scale:true:0', 'scale:false:0', 'scale:false:0', 'desktop:true:0']
+hotcorner-layout=['scale:true:0', 'scale:false:0', 'scale:false:0', 'desktop:false:0']
 workspace-osd-visible=false
 panels-height=['1:35']
 enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:9:notifications@cinnamon.org:5', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:8:calendar@cinnamon.org:12']
