@@ -42,6 +42,5 @@ sudo adduser impsid kvm
 # ssh-keygen -f ~/.ssh/id_rsa -N ""
 
 # DConf settings
-echo "Restaurando configurações do DConf"
-dconf load /org/cinnamon/desktop/keybindings/ < dconf/cinnamon-keybindings.dconf
-dconf load /com/gexperts/Tilix/ < dconf/tilix-config.dconf 
+echo "Restaurando configurações via DConf"
+dconf load / < settings.dconf 
