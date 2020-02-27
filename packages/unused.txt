@@ -1,5 +1,9 @@
 blueberry
 firefox
+firefox-locale-en
+flatpak
+ghostscript
+gir1.2-flatpak-1.0
 gnome-calendar
 gnome-font-viewer
 gnome-logs
@@ -8,6 +12,8 @@ gnote
 gucharmap
 gufw
 hexchat
+libflatpak0
+libgs9*
 libreoffice-common
 mintbackup
 mintdrivers
@@ -17,6 +23,7 @@ mintreport
 mintwelcome
 onboard
 pix
+pix-data
 rhythmbox
 simple-scan
 system-config-printer
@@ -24,4 +31,4 @@ thunderbird
 timeshift
 transmission-gtk
 xed
-xreader
+xreader*
