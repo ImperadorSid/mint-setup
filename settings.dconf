@@ -142,27 +142,6 @@ monospace-font-name='Fira Code 10'
 [org/gnome/terminal/legacy]
 schema-version=uint32 3
 
-[org/gtk/settings/file-chooser]
-sort-column='name'
-sidebar-width=171
-window-position=(387, 146)
-show-size-column=true
-show-hidden=false
-window-size=(1144, 747)
-sort-directories-first=true
-date-format='regular'
-sort-order='ascending'
-location-mode='path-bar'
-
-[org/gtk/settings/color-chooser]
-selected-color=(true, 0.80000000000000004, 0.0, 0.0, 1.0)
-custom-colors=[(1.0, 1.0, 0.0, 0.5)]
-
-[org/onboard]
-system-theme-associations={'HighContrast': 'HighContrast', 'HighContrastInverse': 'HighContrastInverse', 'LowContrast': 'LowContrast', 'ContrastHighInverse': 'HighContrastInverse', 'Default': ''}
-use-system-defaults=false
-schema-version='2.3'
-
 [org/nemo/preferences]
 show-search-icon-toolbar=false
 show-advanced-permissions=true
@@ -178,7 +157,6 @@ default-folder-viewer='list-view'
 swap-trash-delete=true
 show-edit-icon-toolbar=false
 date-format='informal'
-show-hidden-files=false
 disable-menu-warning=true
 
 [org/nemo/preferences/menu-config]
@@ -198,9 +176,6 @@ selection-menu-rename=false
 selection-menu-open-in-new-tab=false
 background-menu-open-in-terminal=false
 
-[org/nemo/extensions/gtkhash]
-hash-functions=['MD5', 'SHA1', 'SHA256']
-
 [org/nemo/plugins]
 disabled-actions=['add-desklets.nemo_action', 'mint-sha256sum.nemo_action', 'mount-archive.nemo_action', 'new-launcher.nemo_action', 'send-by-mail.nemo_action']
 disabled-extensions=['NemoShare', 'ChangeColorFolder+NemoPython', 'EmblemPropertyPage+NemoPython']
@@ -208,28 +183,11 @@ disabled-extensions=['NemoShare', 'ChangeColorFolder+NemoPython', 'EmblemPropert
 [org/nemo/window-state]
 start-with-menu-bar=false
 start-with-sidebar=false
-geometry='800x550+550+244'
 start-with-status-bar=false
-maximized=false
 sidebar-bookmark-breakpoint=5
-start-with-toolbar=true
 
 [org/nemo/desktop]
 home-icon-visible=false
 computer-icon-visible=false
 volumes-visible=false
 
-[apps/seahorse/windows/key-manager]
-width=640
-height=476
-
-[apps/seahorse/listing]
-sidebar-width=148
-keyrings-selected=['secret-service://login', 'openssh:///home/impsid/.ssh']
-
-[ca/desrt/dconf-editor]
-saved-view='/org/cinnamon/desktop/notifications/'
-show-warning=false
-window-height=600
-window-width=800
-window-is-maximized=false
