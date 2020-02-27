@@ -28,55 +28,24 @@ active-plugins=['slideshowshuffle', 'map', 'exif-display']
 statusbar=false
 toolbar=false
 
+
 [org/cinnamon]
-desktop-effects-unmaximize-transition='easeNone'
-desktop-effects-maximize-transition='easeInExpo'
-desktop-effects-map-effect='traditional'
 hotcorner-layout=['scale:true:0', 'scale:false:0', 'scale:false:0', 'desktop:true:0']
-desktop-effects-close-effect='traditional'
-workspace-osd-duration=400
-desktop-effects-unmaximize-time=100
-desklet-snap-interval=25
-desktop-effects-map-time=100
-enabled-desklets=@as []
-desktop-effects-minimize-effect='traditional'
 workspace-osd-visible=false
 panels-height=['1:35']
-next-applet-id=13
-desktop-effects-map-transition='easeOutQuad'
-desktop-effects-unmaximize-effect='none'
-desktop-effects-maximize-time=100
-panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
-desktop-effects-tile-transition='easeInQuad'
-desktop-effects-maximize-effect='none'
 enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:0:systray@cinnamon.org:3', 'panel1:right:1:xapp-status@cinnamon.org:4', 'panel1:right:9:notifications@cinnamon.org:5', 'panel1:right:5:network@cinnamon.org:9', 'panel1:right:6:sound@cinnamon.org:10', 'panel1:right:8:calendar@cinnamon.org:12']
-desktop-effects-minimize-time=160
-alttab-switcher-delay=100
-desktop-effects-tile-effect='none'
-desktop-effects-close-transition='easeOutQuad'
-desktop-effects-minimize-transition='easeInQuad'
-panel-edit-mode=false
 show-media-keys-osd='small'
-workspace-osd-x=50
-desktop-effects-close-time=120
-workspace-osd-y=50
 favorite-apps=@as []
 panels-autohide=['1:true']
-desktop-effects-tile-time=100
 
 [org/cinnamon/settings-daemon/peripherals/touchpad]
-motion-threshold=1
 touchpad-enabled=false
 
 [org/cinnamon/settings-daemon/peripherals/keyboard]
-repeat-interval=uint32 30
-delay=uint32 500
 numlock-state='off'
 
 [org/cinnamon/settings-daemon/peripherals/mouse]
-drag-threshold=8
 motion-threshold=1
-double-click=400
 locate-pointer=true
 
 [org/cinnamon/sounds]
