@@ -1,8 +1,6 @@
 [com/linuxmint/updates]
 hide-systray=true
 show-welcome-page=false
-autorefresh-hours=2
-refresh-minutes=10
 
 [com/linuxmint/report]
 ignored-reports=['install-language-packs', 'timeshift-no-setup']
