@@ -38,7 +38,6 @@ numlock-state='off'
 
 [org/cinnamon/settings-daemon/peripherals/mouse]
 motion-threshold=1
-locate-pointer=true
 
 [org/cinnamon/sounds]
 notification-enabled=true
