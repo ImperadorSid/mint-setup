@@ -105,7 +105,6 @@ show-path=false
 disable-connected-notifications=true
 
 [org/gnome/gnome-system-monitor]
-network-in-bits=true
 graph-update-interval=1000
 update-interval=1000
 cpu-stacked-area-chart=true
