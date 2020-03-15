@@ -30,12 +30,6 @@ show-media-keys-osd='small'
 favorite-apps=@as []
 panels-autohide=['1:true']
 
-[org/cinnamon/settings-daemon/peripherals/touchpad]
-touchpad-enabled=false
-
-[org/cinnamon/settings-daemon/peripherals/keyboard]
-numlock-state='off'
-
 [org/cinnamon/settings-daemon/peripherals/mouse]
 motion-threshold=1
 
