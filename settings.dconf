@@ -11,6 +11,7 @@ quake-hide-headerbar=true
 warn-vte-config-issue=false
 
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+background-transparency-percent=5
 scrollback-unlimited=true
 visible-name='Default'
 
