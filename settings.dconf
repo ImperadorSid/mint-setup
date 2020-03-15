@@ -38,6 +38,9 @@ notification-enabled=true
 tile-enabled=false
 switch-enabled=false
 
+[org/cinnamon/desktop/applications/terminal]
+exec='tilix'
+
 [org/cinnamon/desktop/interface]
 icon-theme='Flat-Remix-Green-Dark'
 gtk-theme='Flat-Remix-GTK-Green-Dark'
@@ -129,6 +132,7 @@ show-advanced-permissions=true
 show-previous-icon-toolbar=false
 show-compact-view-icon-toolbar=false
 show-icon-view-icon-toolbar=false
+executable-text-activation='display'
 never-queue-file-ops=true
 show-up-icon-toolbar=false
 show-list-view-icon-toolbar=false
