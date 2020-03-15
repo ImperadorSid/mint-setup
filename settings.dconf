@@ -67,9 +67,6 @@ www=['XF86WWW', '<Super>c']
 automount-open=false
 automount=false
 
-[org/cinnamon/desktop/applications/terminal]
-exec='tilix'
-
 [org/cinnamon/desktop/notifications]
 bottom-notifications=true
 remove-old=true
