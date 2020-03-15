@@ -10,10 +10,20 @@ new-instance-mode='focus-window'
 quake-hide-headerbar=true
 warn-vte-config-issue=false
 
+[com/gexperts/Tilix/profiles]
+list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', 'c7f92620-c820-4984-b0f2-3fb21af1a884']
+
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
 background-transparency-percent=5
 scrollback-unlimited=true
 visible-name='Default'
+
+[com/gexperts/Tilix/profiles/c7f92620-c820-4984-b0f2-3fb21af1a884]
+background-transparency-percent=5
+scrollback-unlimited=true
+use-system-font=false
+font='Monospace 16'
+visible-name='Big'
 
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
@@ -46,15 +56,20 @@ exec='tilix'
 icon-theme='Flat-Remix-Green-Dark'
 gtk-theme='Flat-Remix-GTK-Green-Dark'
 
-[org/cinnamon/desktop/keybindings/custom-keybindings/custom2]
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom3]
 binding=['<Primary><Shift>Escape']
 command='gnome-system-monitor'
 name='System Monitor'
 
-[org/cinnamon/desktop/keybindings/custom-keybindings/custom1]
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom2]
 binding=['<Super>i']
 command='cinnamon-settings'
 name='System Settings'
+
+[org/cinnamon/desktop/keybindings/custom-keybindings/custom1]
+binding=['<Shift><Super>t']
+command='tilix -q -p "Big"'
+name='Tilix (Quake, Big)'
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
 binding=['<Super>t']
