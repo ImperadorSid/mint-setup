@@ -139,7 +139,6 @@ show-previous-icon-toolbar=false
 show-compact-view-icon-toolbar=false
 show-icon-view-icon-toolbar=false
 never-queue-file-ops=true
-executable-text-activation='display'
 show-up-icon-toolbar=false
 show-list-view-icon-toolbar=false
 show-next-icon-toolbar=false
