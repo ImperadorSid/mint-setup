@@ -3,7 +3,7 @@ hide-systray=true
 show-welcome-page=false
 
 [com/gexperts/Tilix]
-quake-height-percent=60
+quake-height-percent=50
 terminal-title-style='none'
 control-scroll-zoom=true
 new-instance-mode='focus-window'
