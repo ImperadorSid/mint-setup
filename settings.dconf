@@ -22,7 +22,7 @@ visible-name='Default'
 background-transparency-percent=5
 scrollback-unlimited=true
 use-system-font=false
-font='Monospace 16'
+font='Fira Code 16'
 visible-name='Big'
 
 [org/x/viewer/plugins]
