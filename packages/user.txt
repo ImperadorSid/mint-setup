@@ -1,5 +1,6 @@
 fish
 fonts-firacode
+gimp
 git
 nemo-audio-tab
 nemo-gtkhash
