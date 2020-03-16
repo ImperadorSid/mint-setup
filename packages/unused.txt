@@ -1,4 +1,5 @@
 blueberry
+drawing
 firefox
 firefox-locale-en
 flatpak
