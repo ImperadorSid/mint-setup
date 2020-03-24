@@ -14,11 +14,13 @@ warn-vte-config-issue=false
 list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', 'c7f92620-c820-4984-b0f2-3fb21af1a884']
 
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+cursor-shape='ibeam'
 background-transparency-percent=5
 scrollback-unlimited=true
 visible-name='Default'
 
 [com/gexperts/Tilix/profiles/c7f92620-c820-4984-b0f2-3fb21af1a884]
+cursor-shape='ibeam'
 background-transparency-percent=5
 scrollback-unlimited=true
 use-system-font=false
@@ -138,9 +140,6 @@ col-6-width=0
 
 [org/gnome/desktop/interface]
 monospace-font-name='Fira Code 10'
-
-[org/gnome/terminal/legacy]
-schema-version=uint32 3
 
 [org/nemo/preferences]
 show-search-icon-toolbar=false
