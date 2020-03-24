@@ -14,7 +14,6 @@ gucharmap
 gufw
 hexchat
 libflatpak0
-libgs9*
 libreoffice-common
 mintbackup
 mintdrivers
