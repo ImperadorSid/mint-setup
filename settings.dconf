@@ -3,29 +3,43 @@ hide-systray=true
 show-welcome-page=false
 
 [com/gexperts/Tilix]
+warn-vte-config-issue=false
 quake-height-percent=50
 terminal-title-style='none'
-control-scroll-zoom=true
 new-instance-mode='focus-window'
 quake-hide-headerbar=true
-warn-vte-config-issue=false
+control-scroll-zoom=true
 
 [com/gexperts/Tilix/profiles]
 list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', 'c7f92620-c820-4984-b0f2-3fb21af1a884']
 
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+foreground-color='#F8F8F2'
 visible-name='Default'
-cursor-shape='ibeam'
-background-transparency-percent=5
+palette=['#000000', '#FF5454', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF79C6', '#8BE8FD', '#BFBFBF', '#4D4D4D', '#FF6E67', '#5AF78D', '#F4F99D', '#CAA8FA', '#FF92D0', '#9AEDFE', '#E6E6E6']
+badge-color-set=false
+cursor-colors-set=false
+highlight-colors-set=false
+use-theme-colors=false
+bold-color-set=false
 scrollback-unlimited=true
+background-color='#282936'
+background-transparency-percent=5
 
 [com/gexperts/Tilix/profiles/c7f92620-c820-4984-b0f2-3fb21af1a884]
+foreground-color='#F8F8F2'
 visible-name='Big'
-cursor-shape='ibeam'
-background-transparency-percent=5
-scrollback-unlimited=true
+palette=['#000000', '#FF5454', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF79C6', '#8BE8FD', '#BFBFBF', '#4D4D4D', '#FF6E67', '#5AF78D', '#F4F99D', '#CAA8FA', '#FF92D0', '#9AEDFE', '#E6E6E6']
+badge-color-set=false
+cursor-colors-set=false
+highlight-colors-set=false
 use-system-font=false
+bold-color-set=false
 font='Fira Code 16'
+use-theme-colors=false
+scrollback-unlimited=true
+background-color='#282936'
+background-transparency-percent=5
 
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
@@ -152,7 +166,6 @@ background-color='#282A36'
 palette=['#262626', '#E356A7', '#42E66C', '#E4F34A', '#9B6BDF', '#E64747', '#75D7EC', '#EFA554', '#7A7A7A', '#FF79C6', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF5555', '#8BE9FD', '#FFB86C']
 bold-color-same-as-fg=false
 bold-color='#6E46A4'
-cursor-shape='ibeam'
 use-theme-colors=false
 audible-bell=true
 
