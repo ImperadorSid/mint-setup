@@ -14,18 +14,18 @@ warn-vte-config-issue=false
 list=['2b7c4080-0ddd-46c5-8f23-563fd3ba789d', 'c7f92620-c820-4984-b0f2-3fb21af1a884']
 
 [com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+visible-name='Default'
 cursor-shape='ibeam'
 background-transparency-percent=5
 scrollback-unlimited=true
-visible-name='Default'
 
 [com/gexperts/Tilix/profiles/c7f92620-c820-4984-b0f2-3fb21af1a884]
+visible-name='Big'
 cursor-shape='ibeam'
 background-transparency-percent=5
 scrollback-unlimited=true
 use-system-font=false
 font='Fira Code 16'
-visible-name='Big'
 
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
@@ -140,6 +140,21 @@ col-6-width=0
 
 [org/gnome/desktop/interface]
 monospace-font-name='Fira Code 10'
+
+[org/gnome/terminal/legacy]
+menu-accelerator-enabled=false
+default-show-menubar=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='Default'
+foreground-color='#F8F8F2'
+background-color='#282A36'
+palette=['#262626', '#E356A7', '#42E66C', '#E4F34A', '#9B6BDF', '#E64747', '#75D7EC', '#EFA554', '#7A7A7A', '#FF79C6', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF5555', '#8BE9FD', '#FFB86C']
+bold-color-same-as-fg=false
+bold-color='#6E46A4'
+cursor-shape='ibeam'
+use-theme-colors=false
+audible-bell=true
 
 [org/nemo/preferences]
 show-search-icon-toolbar=false
