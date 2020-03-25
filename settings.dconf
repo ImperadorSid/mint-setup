@@ -98,6 +98,15 @@ custom-list=['custom0', 'custom1', 'custom2', 'custom3']
 [org/cinnamon/desktop/keybindings/media-keys]
 www=['XF86WWW', '<Super>c']
 
+[org/cinnamon/desktop/keybindings/wm]
+switch-to-workspace-right=['<Super>Page_Down']
+toggle-above=['<Super>period']
+switch-to-workspace-left=['<Super>Page_Up']
+switch-to-workspace-down=['<Super>apostrophe']
+move-to-workspace-left=['<Shift><Super>Page_Up']
+move-to-workspace-right=['<Shift><Super>Page_Down']
+switch-to-workspace-up=['<Super>Tab', '<Alt>F1']
+
 [org/cinnamon/desktop/media-handling]
 automount-open=false
 automount=false
