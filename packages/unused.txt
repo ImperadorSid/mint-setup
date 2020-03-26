@@ -6,7 +6,6 @@ flatpak
 ghostscript
 gir1.2-flatpak-1.0
 gnome-calendar
-gnome-font-viewer
 gnome-logs
 gnome-power-manager
 gnote
