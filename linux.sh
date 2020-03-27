@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# Aditional repositories
+echo "Adicionando repositórios de terceiros"
+sudo add-apt-repository -y ppa:daniruiz/flat-remix
+sudo apt update
+
 # Softwares
 echo "Instalando pacotes do usuário"
 apt install -y $(cat packages/user.txt)
@@ -20,6 +25,10 @@ echo "Configurando identificação no Git"
 git config --global user.name "Moisés Carvalho"
 git config --global user.email "moisescarv27@hotmail.com"
 git config --global core.excludesfile ~/.gitignore_global
+
+# Git repos
+echo "Clonando repositórios"
+git clone https://github.com/dracula/vim ~/.vim/pack/plugins/start/dracula
 
 # Fish
 echo "Definindo o shell padrão"

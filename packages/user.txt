@@ -1,4 +1,6 @@
 fish
+flat-remix
+flat-remix-gtk
 gimp
 git
 nemo-audio-tab
