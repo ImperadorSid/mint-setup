@@ -2,6 +2,7 @@
 # Aditional repositories
 echo "Adicionando repositórios de terceiros"
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
+sudo add-apt-repository -y ppa:uget-team/ppa
 sudo apt update
 
 # Softwares

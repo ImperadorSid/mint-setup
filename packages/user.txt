@@ -12,5 +12,6 @@ qemu-kvm
 tilix
 tree
 uget
+uget-integrator
 vim-gtk3
 xclip
