@@ -3,6 +3,7 @@ flat-remix
 flat-remix-gtk
 gimp
 git
+htop
 nemo-audio-tab
 nemo-gtkhash
 openjdk-8-jdk
@@ -10,5 +11,6 @@ openssh-server
 qemu-kvm
 tilix
 tree
+uget
 vim-gtk3
 xclip

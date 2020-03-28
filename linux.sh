@@ -27,8 +27,10 @@ git config --global user.email "moisescarv27@hotmail.com"
 git config --global core.excludesfile ~/.gitignore_global
 
 # Git repos
-echo "Clonando repositórios"
-git clone https://github.com/dracula/vim ~/.vim/pack/plugins/start/dracula
+echo "Instalando extensões do Vim"
+git clone https://github.com/dracula/vim ~/.vim/pack/themes/opt/dracula
+git clone https://github.com/dag/vim-fish ~/.vim/pack/syntax/start/fish
+git clone https://github.com/dart-lang/dart-vim-plugin ~/.vim/pack/syntax/start/dart
 
 # Fish
 echo "Definindo o shell padrão"
