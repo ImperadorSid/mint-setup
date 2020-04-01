@@ -18,8 +18,9 @@ echo "Removendo pacotes não-utilizados"
 apt purge -y $(cat packages/unused.txt)
 
 # Clean packages
-echo "Limpando cache do repositôrio de pacotes"
+echo "Limpando cache do repositório de pacotes"
 apt clean
+apt autoremove -y
 
 # Git
 echo "Configurando identificação no Git"
@@ -55,4 +56,5 @@ sudo adduser impsid kvm
 
 # DConf settings
 echo "Restaurando configurações via DConf"
+dconf reset -f /org/gnome/terminal/legacy/
 dconf load / < settings.dconf 
