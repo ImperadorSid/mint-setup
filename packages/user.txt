@@ -1,8 +1,10 @@
+aria2
 fish
 flat-remix
 flat-remix-gtk
 gimp
 git
+grc
 htop
 nemo-audio-tab
 nemo-gtkhash
