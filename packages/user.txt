@@ -6,6 +6,7 @@ gimp
 git
 grc
 htop
+jq
 nemo-audio-tab
 nemo-gtkhash
 openjdk-8-jdk
