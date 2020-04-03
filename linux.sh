@@ -33,6 +33,7 @@ echo "Instalando extensões do Vim"
 git clone https://github.com/dracula/vim ~/.vim/pack/themes/opt/dracula
 git clone https://github.com/dag/vim-fish ~/.vim/pack/syntax/start/fish
 git clone https://github.com/dart-lang/dart-vim-plugin ~/.vim/pack/syntax/start/dart
+git clone https://github.com/jiangmiao/auto-pairs ~/.vim/pack/plugins/start/auto-pairs
 
 # Fish
 echo "Definindo o shell padrão"
