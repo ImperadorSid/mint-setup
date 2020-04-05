@@ -4,7 +4,7 @@ show-welcome-page=false
 
 [com/gexperts/Tilix]
 warn-vte-config-issue=false
-quake-height-percent=50
+quake-height-percent=65
 terminal-title-style='none'
 new-instance-mode='focus-window'
 quake-hide-headerbar=true
