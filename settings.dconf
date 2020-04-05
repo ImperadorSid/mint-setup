@@ -35,7 +35,7 @@ cursor-colors-set=false
 highlight-colors-set=false
 use-system-font=false
 bold-color-set=false
-font='FiraCode Nerd Font 16'
+font='JetBrainsMono Nerd Font 16'
 use-theme-colors=false
 scrollback-unlimited=true
 background-color='#282936'
@@ -162,7 +162,7 @@ col-5-visible=false
 col-6-width=0
 
 [org/gnome/desktop/interface]
-monospace-font-name='FiraCode Nerd Font 10'
+monospace-font-name='JetBrainsMono Nerd Font 10'
 
 [org/gnome/terminal/legacy]
 menu-accelerator-enabled=false
