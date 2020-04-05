@@ -196,8 +196,6 @@ disabled-extensions=['NemoShare', 'ChangeColorFolder+NemoPython', 'EmblemPropert
 [org/nemo/window-state]
 start-with-menu-bar=false
 start-with-sidebar=false
-start-with-status-bar=false
-sidebar-bookmark-breakpoint=5
 
 [org/nemo/desktop]
 home-icon-visible=false
