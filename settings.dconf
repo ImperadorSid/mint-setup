@@ -23,6 +23,12 @@ scrollback-unlimited=true
 background-color='#282936'
 background-transparency-percent=5
 
+[com/gexperts/Tilix/keybindings]
+session-switch-to-terminal-left='<Primary><Alt>Left'
+session-switch-to-terminal-down='<Primary><Alt>Down'
+session-switch-to-terminal-right='<Primary><Alt>Right'
+session-switch-to-terminal-up='<Primary><Alt>Up'
+
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
 
