@@ -4,7 +4,7 @@ show-welcome-page=false
 
 [com/gexperts/Tilix]
 warn-vte-config-issue=false
-quake-height-percent=65
+quake-height-percent=100
 terminal-title-style='none'
 new-instance-mode='focus-window'
 quake-hide-headerbar=true
@@ -21,7 +21,7 @@ use-theme-colors=false
 bold-color-set=false
 scrollback-unlimited=true
 background-color='#282936'
-background-transparency-percent=5
+background-transparency-percent=10
 
 [com/gexperts/Tilix/keybindings]
 session-switch-to-terminal-left='<Primary><Alt>Left'
