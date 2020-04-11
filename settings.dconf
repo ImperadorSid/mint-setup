@@ -207,4 +207,5 @@ start-with-sidebar=false
 home-icon-visible=false
 computer-icon-visible=false
 volumes-visible=false
+desktop-layout='false::true'
 
