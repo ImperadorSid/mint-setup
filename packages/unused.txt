@@ -1,4 +1,5 @@
 blueberry
+celluloid
 drawing
 firefox
 firefox-locale-en

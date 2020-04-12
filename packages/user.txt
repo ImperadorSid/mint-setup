@@ -18,4 +18,5 @@ tree
 uget
 uget-integrator
 vim-gtk3
+vlc
 xclip
