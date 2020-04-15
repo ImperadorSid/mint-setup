@@ -23,7 +23,7 @@ apt clean
 apt autoremove -y
 
 # Pastas
-echo 'Criando pastas de binários'
+echo 'Criando pasta de binários'
 mkdir ~/.local/bin
 
 # Git
@@ -42,10 +42,7 @@ git clone https://github.com/jiangmiao/auto-pairs ~/.vim/pack/plugins/start/auto
 # Fish
 echo 'Configurando o fish shell'
 sudo chsh -s /usr/bin/fish impsid
-fish -c "fish_vi_key_bindings"
-fish -c "abbr s 'sed -nr \'s|||p\''"
-
-# Change default mode
+./initial-config.fish
 
 # Date and time
 echo 'Alterando funcionamento do relógio do sistema'
