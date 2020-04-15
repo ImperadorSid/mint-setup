@@ -1,4 +1,5 @@
 aria2
+build-essential
 fish
 flat-remix
 flat-remix-gtk
@@ -13,6 +14,7 @@ nemo-gtkhash
 openjdk-8-jdk
 openssh-server
 qemu-kvm
+suckless-tools
 tilix
 tree
 uget
