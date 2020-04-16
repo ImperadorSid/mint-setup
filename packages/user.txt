@@ -19,6 +19,7 @@ tilix
 tree
 uget
 uget-integrator
+vifm
 vim-gtk3
 vlc
 xclip
