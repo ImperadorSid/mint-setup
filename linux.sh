@@ -24,8 +24,10 @@ apt clean
 apt autoremove -y
 
 # Pastas
-echo 'Criando pasta de binários'
+echo 'Criando pastas'
+mkdir ~/.cache/fish_json
 mkdir ~/.local/bin
+mkdir ~/.local/scripts
 
 # Git
 echo 'Configurando identificação no Git'
@@ -48,6 +50,10 @@ sudo chsh -s /usr/bin/fish impsid
 # Date and time
 echo 'Alterando funcionamento do relógio do sistema'
 timedatectl set-local-rtc true
+
+# Input method
+echo 'Alterando gerenciador de entradas de teclado'
+im-config -n xim
 
 # Java
 echo 'Definindo versão do Java a ser utilizada'

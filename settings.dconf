@@ -2,33 +2,6 @@
 hide-systray=true
 show-welcome-page=false
 
-[com/gexperts/Tilix]
-warn-vte-config-issue=false
-quake-height-percent=100
-terminal-title-style='none'
-new-instance-mode='focus-window'
-quake-hide-headerbar=true
-control-scroll-zoom=true
-
-[com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
-foreground-color='#F8F8F2'
-visible-name='Default'
-palette=['#000000', '#FF5454', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF79C6', '#8BE8FD', '#BFBFBF', '#4D4D4D', '#FF6E67', '#5AF78D', '#F4F99D', '#CAA8FA', '#FF92D0', '#9AEDFE', '#E6E6E6']
-badge-color-set=false
-cursor-colors-set=false
-highlight-colors-set=false
-use-theme-colors=false
-bold-color-set=false
-scrollback-unlimited=true
-background-color='#282936'
-background-transparency-percent=10
-
-[com/gexperts/Tilix/keybindings]
-session-switch-to-terminal-left='<Primary><Alt>Left'
-session-switch-to-terminal-down='<Primary><Alt>Down'
-session-switch-to-terminal-right='<Primary><Alt>Right'
-session-switch-to-terminal-up='<Primary><Alt>Up'
-
 [org/x/viewer/plugins]
 active-plugins=['slideshowshuffle', 'map', 'exif-display']
 
@@ -53,9 +26,6 @@ notification-enabled=true
 tile-enabled=false
 switch-enabled=false
 
-[org/cinnamon/desktop/applications/terminal]
-exec='tilix'
-
 [org/cinnamon/desktop/interface]
 icon-theme='Flat-Remix-Green-Dark'
 gtk-theme='Flat-Remix-GTK-Green-Dark'
@@ -72,8 +42,8 @@ name='System Settings'
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
 binding=['<Super>t']
-command='tilix -q'
-name='Tilix (Quake)'
+command='/home/impsid/.local/scripts/alacritty-dropdown.sh'
+name='Alacritty'
 
 [org/cinnamon/desktop/keybindings]
 custom-list=['custom0', 'custom1', 'custom2']

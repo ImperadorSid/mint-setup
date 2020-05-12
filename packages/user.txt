@@ -1,3 +1,4 @@
+apt-file
 aria2
 build-essential
 fish
@@ -6,8 +7,9 @@ flat-remix-gtk
 gimp
 git
 grc
-htop
 imagemagick
+imagemagick-doc
+inotify-tools
 jq
 nemo-audio-tab
 nemo-gtkhash
@@ -15,11 +17,8 @@ openjdk-8-jdk
 openssh-server
 qemu-kvm
 suckless-tools
-tilix
-tree
 uget
 uget-integrator
 vifm
-vim-gtk3
 vlc
 xclip
