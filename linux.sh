@@ -33,14 +33,7 @@ mkdir ~/.local/scripts
 echo 'Configurando identificação no Git'
 git config --global user.name "Moisés Carvalho"
 git config --global user.email "moisescarv27@hotmail.com"
-git config --global core.excludesfile ~/.gitignore_global
-
-# Git repos
-echo 'Instalando extensões do Vim'
-git clone https://github.com/dracula/vim ~/.vim/pack/themes/opt/dracula
-git clone https://github.com/dag/vim-fish ~/.vim/pack/syntax/start/fish
-git clone https://github.com/dart-lang/dart-vim-plugin ~/.vim/pack/syntax/start/dart
-git clone https://github.com/jiangmiao/auto-pairs ~/.vim/pack/plugins/start/auto-pairs
+git config --global core.excludesfile ~/.config/ignore-locations
 
 # Fish
 echo 'Configurando o fish shell'
