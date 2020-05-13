@@ -27,7 +27,6 @@ apt autoremove -y
 echo 'Criando pastas'
 mkdir ~/.cache/fish_json
 mkdir ~/.local/bin
-mkdir ~/.local/scripts
 
 # Git
 echo 'Configurando identificação no Git'
@@ -38,7 +37,7 @@ git config --global core.excludesfile ~/.config/ignore-locations
 # Fish
 echo 'Configurando o fish shell'
 sudo chsh -s /usr/bin/fish impsid
-./initial-config.fish
+./initial-settings.fish
 
 # Date and time
 echo 'Alterando funcionamento do relógio do sistema'
