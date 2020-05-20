@@ -33,6 +33,8 @@ echo 'Configurando identificação no Git'
 git config --global user.name "Moisés Carvalho"
 git config --global user.email "moisescarv27@hotmail.com"
 git config --global core.excludesfile ~/.config/ignore-locations
+git config --global diff.tool vimdiff
+git config --global difftool.prompt false
 
 # Fish
 echo 'Configurando o fish shell'
