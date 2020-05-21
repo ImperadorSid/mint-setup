@@ -77,6 +77,9 @@ workspace-names=['Others', 'Main', 'Fun']
 [org/cinnamon/desktop/sound]
 volume-sound-enabled=false
 
+[org/cinnamon/desktop/background]
+picture-options='spanned'
+
 [org/cinnamon/theme]
 name='Flat-Remix-GTK-Green-Dark'
 
@@ -125,9 +128,7 @@ default-show-menubar=false
 visible-name='Default'
 foreground-color='#F8F8F2'
 background-color='#282A36'
-palette=['#262626', '#E356A7', '#42E66C', '#E4F34A', '#9B6BDF', '#E64747', '#75D7EC', '#EFA554', '#7A7A7A', '#FF79C6', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF5555', '#8BE9FD', '#FFB86C']
-bold-color-same-as-fg=false
-bold-color='#6E46A4'
+palette=['#21222C', '#FF5555', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF79C6', '#8BE9FD', '#F8F8F2', '#6272A4', '#FF6E6E', '#69FF94', '#FFFFA5', '#D6ACFF', '#FF92DF', '#A4FFFF', '#FFFFFF']
 use-theme-colors=false
 audible-bell=true
 
