@@ -1,4 +1,5 @@
 apt-file
+archivemount
 aria2
 build-essential
 fish
