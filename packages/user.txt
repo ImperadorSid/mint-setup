@@ -2,9 +2,12 @@ apt-file
 archivemount
 aria2
 build-essential
+cscope
 fish
 flat-remix
 flat-remix-gtk
+fuseiso
+fusezip
 gimp
 git
 grc
