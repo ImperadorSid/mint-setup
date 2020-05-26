@@ -42,7 +42,7 @@ name='System Settings'
 
 [org/cinnamon/desktop/keybindings/custom-keybindings/custom0]
 binding=['<Super>t']
-command='/home/impsid/.local/scripts/alacritty-dropdown.sh'
+command='/home/impsid/.local/scripts/terminal-dropdown.sh'
 name='Alacritty'
 
 [org/cinnamon/desktop/keybindings]

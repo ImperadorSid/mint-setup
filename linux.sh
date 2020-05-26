@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Aditional repositories
 echo 'Adicionando repositórios de terceiros'
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
@@ -25,16 +26,8 @@ apt autoremove -y
 
 # Pastas
 echo 'Criando pastas'
-mkdir ~/.cache/fish_json
+mkdir ~/.cache/fish_{compare,json}
 mkdir ~/.local/bin
-
-# Git
-echo 'Configurando identificação no Git'
-git config --global user.name "Moisés Carvalho"
-git config --global user.email "moisescarv27@hotmail.com"
-git config --global core.excludesfile ~/.config/ignore-locations
-git config --global diff.tool vimdiff
-git config --global difftool.prompt false
 
 # Fish
 echo 'Configurando o fish shell'
