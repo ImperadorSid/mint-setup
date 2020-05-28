@@ -5,6 +5,7 @@ autoconf
 automake
 build-essential
 cscope
+ffmpeg
 fish
 flat-remix
 flat-remix-gtk
@@ -17,6 +18,7 @@ imagemagick
 imagemagick-doc
 inotify-tools
 jq
+mp3info
 nemo-audio-tab
 nemo-gtkhash
 openjdk-8-jdk
