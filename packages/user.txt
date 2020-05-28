@@ -4,7 +4,7 @@ aria2
 autoconf
 automake
 build-essential
-cscope
+catdoc
 ffmpeg
 fish
 flat-remix
@@ -14,10 +14,12 @@ fusezip
 gimp
 git
 grc
+highlight
 imagemagick
 imagemagick-doc
 inotify-tools
 jq
+links
 mp3info
 nemo-audio-tab
 nemo-gtkhash
