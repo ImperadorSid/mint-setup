@@ -18,6 +18,7 @@ imagemagick
 imagemagick-doc
 inotify-tools
 jq
+libimage-exiftool-perl
 links
 mediainfo
 nemo-audio-tab
