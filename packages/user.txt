@@ -9,7 +9,7 @@ fish
 flat-remix
 flat-remix-gtk
 fuseiso
-fusezip
+fuse-zip
 gimp
 git
 grc

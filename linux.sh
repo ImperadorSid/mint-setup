@@ -26,7 +26,7 @@ apt autoremove -y
 
 # Pastas
 echo 'Criando pastas'
-mkdir ~/.cache/fish_{compare,json}
+mkdir ~/.cache/fish_compare
 mkdir ~/.local/bin
 
 # Fish
