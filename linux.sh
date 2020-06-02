@@ -21,8 +21,9 @@ apt purge -y $(cat packages/unused.txt)
 
 # Clean packages
 echo 'Limpando cache do repositório de pacotes'
-apt clean
+apt upgrade -y
 apt autoremove -y
+apt clean
 
 # Pastas
 echo 'Criando pastas'
