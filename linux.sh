@@ -52,5 +52,4 @@ sudo adduser impsid kvm
 
 # DConf settings
 echo 'Restaurando configurações via DConf'
-dconf reset -f /org/gnome/terminal/legacy/
-dconf load / < settings.dconf 
+dconf load / < settings.ini
