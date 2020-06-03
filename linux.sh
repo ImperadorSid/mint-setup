@@ -11,18 +11,14 @@ sudo apt update
 echo 'Instalando pacotes do usuário'
 apt install -y $(cat packages/user.txt)
 
-# Optional softwares
-# echo 'Instalando pacotes opcionais'
-# apt install -y $(cat packages/optional.txt)
-
 # Unused softwares
 echo 'Removendo pacotes não-utilizados'
 apt purge -y $(cat packages/unused.txt)
 
 # Clean packages
 echo 'Limpando cache do repositório de pacotes'
+apt update
 apt upgrade -y
-apt autoremove -y
 apt clean
 
 # Pastas
@@ -54,3 +50,4 @@ sudo adduser impsid kvm
 # DConf settings
 echo 'Restaurando configurações via DConf'
 dconf load / < settings.ini
+
