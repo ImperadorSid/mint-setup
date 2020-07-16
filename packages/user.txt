@@ -18,8 +18,6 @@ nemo-gtkhash
 openjdk-8-jdk
 openssh-server
 qemu-kvm
-uget
-uget-integrator
-vifm
+snapd
 vlc
 xclip

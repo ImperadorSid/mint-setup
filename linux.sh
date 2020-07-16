@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
+# Reenabling snaps
+echo 'Reativando snaps'
+sudo rm /etc/apt/preferences.d/nosnap.pref
+
 # Additional repositories
 echo 'Adicionando repositórios de terceiros'
 sudo add-apt-repository -y ppa:daniruiz/flat-remix
 sudo apt-add-repository -y ppa:fish-shell/release-3
-sudo apt-add-repository -y ppa:uget-team/ppa
 sudo apt update
 
 # Softwares

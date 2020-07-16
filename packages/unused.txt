@@ -4,7 +4,6 @@ drawing
 firefox
 firefox-locale-en
 flatpak
-ghostscript
 gir1.2-flatpak-1.0
 gnome-calendar
 gnome-logs
@@ -31,4 +30,5 @@ thunderbird
 timeshift
 transmission-gtk
 xed
-xreader*
+xreader-common
+
