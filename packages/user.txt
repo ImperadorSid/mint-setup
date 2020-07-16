@@ -3,6 +3,7 @@ aria2
 autoconf
 automake
 build-essential
+command-not-found
 fish
 flat-remix
 flat-remix-gtk
@@ -19,5 +20,6 @@ openjdk-8-jdk
 openssh-server
 qemu-kvm
 snapd
+virtualbox-qt
 vlc
 xclip
