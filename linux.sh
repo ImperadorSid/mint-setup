@@ -14,6 +14,11 @@ sudo apt update
 echo 'Instalando pacotes do usuário'
 apt install -y $(cat packages/user.txt)
 
+# Snaps
+echo 'Instalando snaps'
+sudo snap install spotify
+sudo snap install --beta authy
+
 # Unused softwares
 echo 'Removendo pacotes não-utilizados'
 apt purge -y $(cat packages/unused.txt)
