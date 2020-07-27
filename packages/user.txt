@@ -20,6 +20,7 @@ openjdk-8-jdk
 openssh-server
 qemu-kvm
 snapd
+ttf-mscorefonts-installer
 virtualbox-qt
 vlc
 xclip
