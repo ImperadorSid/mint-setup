@@ -17,6 +17,7 @@ apt install -y $(cat packages/user.txt)
 # Snaps
 echo 'Instalando snaps'
 sudo snap install spotify
+sudo snap install --beta --devmode authy
 
 # Unused softwares
 echo 'Removendo pacotes não-utilizados'
@@ -26,6 +27,7 @@ apt purge -y $(cat packages/unused.txt)
 echo 'Limpando cache do repositório de pacotes'
 apt update
 apt upgrade -y
+apt autoremove -y
 apt clean
 
 # Pastas
@@ -51,8 +53,8 @@ echo 'Definindo versão do Java a ser utilizada'
 sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 
 # KVM
-echo 'Adicionando usuário ao grupo das máquinas virtuais'
-sudo adduser impsid kvm
+# echo 'Adicionando usuário ao grupo das máquinas virtuais'
+# sudo adduser impsid kvm
 
 # DConf settings
 echo 'Restaurando configurações via DConf'

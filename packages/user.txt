@@ -10,15 +10,11 @@ flat-remix-gtk
 gimp
 git
 grc
-imagemagick
-imagemagick-doc
-inotify-tools
 jq
 nemo-audio-tab
 nemo-gtkhash
 openjdk-8-jdk
 openssh-server
-qemu-kvm
 snapd
 virtualbox-qt
 vlc
