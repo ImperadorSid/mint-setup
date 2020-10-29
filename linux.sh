@@ -34,6 +34,7 @@ apt clean
 echo 'Criando pastas'
 mkdir ~/.cache/fish_compare
 mkdir ~/.local/bin
+mkdir ~/.local/share/fonts
 
 # Fish
 echo 'Configurando o fish shell'
@@ -55,6 +56,10 @@ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/ja
 # KVM
 # echo 'Adicionando usuário ao grupo das máquinas virtuais'
 # sudo adduser impsid kvm
+
+# Fonts
+echo 'Reinstalando fontes'
+cp -r ~/Pictures/Fonts/Cas*/ ~/.local/share/fonts
 
 # DConf settings
 echo 'Restaurando configurações via DConf'

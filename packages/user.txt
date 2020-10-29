@@ -10,6 +10,7 @@ flat-remix-gtk
 gimp
 git
 grc
+inkscape
 jq
 nemo-audio-tab
 nemo-gtkhash
